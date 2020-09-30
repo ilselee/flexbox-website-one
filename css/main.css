@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #8EE4AF;
   height: 100%;
   width: 100%;
 }
@@ -104,52 +104,70 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 0.75em;
   height: 100%;
-  color: #fff;
+  color: #EDF5E1;
+  display: flex;
+  justify-content: center;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: #05386B;
   height: 80px;
   width: 100%;
-
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #EDF5E1;
   height: 250px;
   width: 100%;
-
-}
-
-header,
-footer,
-main {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid #fff;
   align-items: center;
+  padding: 10px;
 }
 
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 3rem;
+  color: grey;
+  padding-left: 30px;
+}
+
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  color: grey;
+}
+
+footer p {
+  font-size: 1.5em;
+  padding-left: 10px;
+}
 .flex-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .flex-items {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #41b3a3;
   width: 30%;
-  height: 200px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #555;
 }
 
 /* ==========================================================================
